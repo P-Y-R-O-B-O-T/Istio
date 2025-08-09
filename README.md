@@ -16,19 +16,18 @@
 <!-- * These issues are handled by the devops teams outside the microservices -->
 
 ### Monolith
-    Pros
-        Easy to build, test, and deploy at the start
-        Fewer parts to run and manage
-        Faster internal calls; easier to debug
-        Centralized cross-cutting concerns (auth, logging, monitoring) in one place
-
-    Cons
-        Must scale the whole app even if one part is busy (costly)
-        Limited multi-language support (usually one stack for all)
-        Hard to run two versions of the same module
-        Releases slow down as code grows; becomes a “big ball of mud”
-        One bug can crash the whole app
-        Upgrading modules safely is difficult
+**Pros:**
+- Easy to build, test, and deploy at the start
+- Fewer parts to run and manage
+- Faster internal calls; easier to debug
+- Centralized cross-cutting concerns (auth, logging, monitoring) in one place
+**Cons:**
+- Must scale the whole app even if one part is busy (costly)
+- Limited multi-language support (usually one stack for all)
+- Hard to run two versions of the same module
+- Releases slow down as code grows; becomes a “big ball of mud”
+- One bug can crash the whole app
+- Upgrading modules safely is difficult
 
 ### Microservices
     Pros
