@@ -21,6 +21,7 @@
 - Fewer parts to run and manage
 - Faster internal calls; easier to debug
 - Centralized cross-cutting concerns (auth, logging, monitoring) in one place
+
 **Cons:**
 - Must scale the whole app even if one part is busy (costly)
 - Limited multi-language support (usually one stack for all)
